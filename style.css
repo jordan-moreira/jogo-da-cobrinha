@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    background-color:rgb(0, 2, 20);
+    font-family: 'Oswald', sans-serif;
+}
+
+#areaDoJogo{
+    margin-top:5%;
+}
+
+.container-buttons{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    padding-left:100px;
+
+}
+
+.play-pause{
+    background-color: white;
+    position: relative;
+    top: -318px;
+    left: 404px;
+    padding: 8px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+.reset{
+    background-color: white;
+    position: relative;
+    top: -277px;
+    left: 44px;
+    padding: 8px;
+    width: 56px;
+    border-radius: 50%;
+}
+
+
+i.fa-solid{
+    display:block;
+    width: 100px;
+    height: 100px;
+    color:white;
+    font-size:100px;
+
+}
+
+#up{
+    grid-column-start:2;
+    grid-column-end:3;
+}
+#left{
+    grid-column-start:1;
+    grid-column-end:2;
+}
+#right{
+    grid-column-start:3;
+    grid-column-end:-1;
+}
+#down{
+    grid-column-start:2;
+    grid-column-end:3;
+}
